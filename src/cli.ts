@@ -24,6 +24,9 @@ import RuleDisableScroll from "./rules/disable-scroll";
 import RuleRendererSkyline from "./rules/renderer-skyline";
 // Mixed rules
 import RuleScrollView from "./rules/scroll-view";
+// Uni-app rules
+import RuleUniApp from "./rules/uni-app";
+import { uniAppStyleRule } from "./rules/uni-app";
 
 import { RuleLevel, RuleResultItem } from "./rules/interface";
 import { format } from "util";
@@ -60,6 +63,9 @@ const Rules = [
   RuleRendererSkyline,
   // Mixed rules
   RuleScrollView,
+  // Uni-app rules
+  RuleUniApp,
+  uniAppStyleRule,
 ].flat();
 
 const logColor = {
